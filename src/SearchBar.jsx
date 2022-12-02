@@ -1,8 +1,8 @@
 import React from 'react';
 
-function SearchBar(){
+function SearchBar(props){
     return(
-        <h1>Search bar</h1>
+        <input type={props.type} placeholder={props.placeholder}/>
     )
 }
 
